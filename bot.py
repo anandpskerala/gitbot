@@ -14,7 +14,7 @@ PORT = 5000  # Port on which Flask should listen on
 #CERT_KEY = '/etc/pki/tls/certs/examplebot.key'
 
 ABOTNAME = '@' + BOTNAME
-CONTEXT = (CERT, CERT_KEY)
+#CONTEXT = (CERT, CERT_KEY)
 
 app = Flask(__name__)
 
