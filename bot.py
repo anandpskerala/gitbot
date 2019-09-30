@@ -10,8 +10,8 @@ BASE_URL = 'https://keralasbots.herokuapp.com/'  # Domain name of your server, w
 HOST = '0.0.0.0'  # IP Address on which Flask should listen on
 PORT = 5000  # Port on which Flask should listen on
 
-CERT     = '/etc/pki/tls/certs/examplebot.pem'
-CERT_KEY = '/etc/pki/tls/certs/examplebot.key'
+#CERT     = '/etc/pki/tls/certs/examplebot.pem'
+#CERT_KEY = '/etc/pki/tls/certs/examplebot.key'
 
 ABOTNAME = '@' + BOTNAME
 CONTEXT = (CERT, CERT_KEY)
