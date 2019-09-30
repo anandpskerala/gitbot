@@ -4,9 +4,9 @@ import telegram
 from flask import Flask, request
 
 # Configuration
-BOTNAME = 'examplebot'  # The name of the bot, without @
-TOKEN = ''  # Security Token given from the @BotFather
-BASE_URL = 'sub.example.com'  # Domain name of your server, without protocol. You may include a port, if you dont want to use 443.
+BOTNAME = 'Github_keralabot'  # The name of the bot, without @
+TOKEN = '879263624:AAH1jrCEv06fT8PRKRflFu5ZcpzfkhX_-bU'  # Security Token given from the @BotFather
+BASE_URL = 'https://keralasbots.herokuapp.com/'  # Domain name of your server, without protocol. You may include a port, if you dont want to use 443.
 HOST = '0.0.0.0'  # IP Address on which Flask should listen on
 PORT = 5000  # Port on which Flask should listen on
 
