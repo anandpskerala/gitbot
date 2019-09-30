@@ -146,8 +146,8 @@ def index():
     return 'Gitbot is running!'
     
 # Start Flask with SSL handling
-app.run(host=HOST,port=PORT, ssl_context=CONTEXT, threaded=True, debug=False)
+#app.run(host=HOST,port=PORT, ssl_context=CONTEXT, threaded=True, debug=False)
 
 # Start Flask without SSL handling
-#app.run(host=HOST,port=PORT, threaded=True, debug=False)
+app.run(host=HOST,port=PORT, threaded=True, debug=False)
 
